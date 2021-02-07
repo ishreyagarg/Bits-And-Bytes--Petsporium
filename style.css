@@ -1,0 +1,244 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: ;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.logo img{
+    width: 70%;
+
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 80px;
+    background: black;
+    height: 0px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    width: 25%%
+    justify-content: center;
+     align-items: center;
+    background-color: black;
+    }
+.nav-list li {
+    list-style: none;
+    padding: 15px 50px;    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px; 
+    background-color: black;
+ }
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+.background{
+    background: url('../img/pets.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin:auto;
+    height: 80%; 
+}
+.firstHalf{
+    width: 85%;
+    display: flex;
+    flex-direction:column;
+    justify-content: centre;
+}
+
+.secondHalf{
+    width: 30%;
+    display: flex;
+}
+.secondHalf img{
+     width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+}
+
+.text-big{
+    font-size: 40px;
+    -webkit-text-stroke:   0.5px white; 
+    text-align: end;
+          
+}
+
+.text{
+    font size: 30px;
+    -webkit-text-stroke:   0.5px white;
+}
+.btn{
+    padding: 8px 20px;
+    margin:7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu ',sans-serif;  
+
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px ;
+    
+}
+.btn-dark{
+color: black;
+border: 2px solid grey;    
+}  
+.section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: auto;
+    background-color: chocolate;
+    font-family: 'Ubuntu ',sans-serif;  
+    
+}
+.section-left{
+    margin: auto;
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 0 65px;
+}
+.sectionTag{
+    padding: 16px 0;
+}
+ 
+.sectionSubTag{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.thumbnail img{
+    width: 280px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;;  
+
+}
+.contact{
+    background-color: whitesmoke;
+    height: 833px;
+
+}
+
+.text-centre{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Ubuntu ',sans-serif;  
+    font-size: 35px;
+
+}
+.form{
+    max-width: 1200px;
+    margin: 25px auto;
+}
+.form-input{
+    margin: 14px 0;
+    padding: 5px 13px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section1{
+    padding: 100px 0;
+}
+.serviceTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.service{     
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-play{
+        <button class="btn-gallery">GALLERY</button>
+        <button class="btn-qa">Q/A</button>
+        <button class="btn-reviews">REVIEWS</button>
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu ',sans-serif;  
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+   }
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+}
